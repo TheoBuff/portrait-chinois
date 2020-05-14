@@ -1,0 +1,268 @@
+@font-face {
+    font-family: "fipps";
+    src: url("/fonts/fipps-regular-webfont.woff2") format("woff2"),
+        url("/fonts/fipps-regular-webfont.woff") format("woff");
+
+    font-family: "starcruiser";
+    src: url("/fonts/starcruiser-webfont.woff2") format("woff2"),
+        url("/fonts/starcruiser-webfont.woff") format("woff");
+
+    font-family: "starwars";
+    src: url("fonts/starjedi.woff2") format("woff2"),
+        url("fonts/starjedi.woff") format("woff");
+
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.page-one {
+    background: url('img/gargantua.jpg');
+    background-size: cover;
+    position: relative;
+    height: 105vh;
+    background-attachment: fixed;
+    background-position: center top;
+
+
+}
+
+.page-two {
+    background: url('img/japon.jpg');
+    position: relative;
+    height: 105vh;
+    background-attachment: fixed;
+    background-position: center top;
+    background-size: cover;
+
+}
+
+.page-three {
+    background: url('img/child-of-light.jpg');
+    position: relative;
+    height: 105vh;
+    background-attachment: fixed;
+    background-position: center top;
+    background-size: cover;
+
+}
+
+.page-four {
+    background: url('img/eren.jpg');
+    position: relative;
+    height: 105vh;
+    background-attachment: fixed;
+    background-position: center top;
+    background-size: cover;
+
+}
+
+.page-five {
+    background: url('img/rammstein2.jpg');
+    position: relative;
+    height: 105vh;
+    background-attachment: fixed;
+    background-position: center top;
+    background-size: cover;
+
+}
+
+.page-six {
+    background: url('img/interstellar3.jpg');
+    position: relative;
+    height: 105vh;
+    background-attachment: fixed;
+    background-position: center top;
+    background-size: cover;
+
+}
+
+.page-seven {
+    background: url('img/loutre2.jpg');
+    position: relative;
+    height: 105vh;
+    background-attachment: fixed;
+    background-position: center top;
+    background-size: cover;
+
+}
+
+.page-eight {
+    background: url('img/pégase2.jpg');
+    position: relative;
+    height: 105vh;
+    background-attachment: fixed;
+    background-position: center top;
+    background-size: cover;
+
+}
+
+h1 {
+    display: inline-block;
+
+    color: white;
+    font-family: starcruiser;
+    font-size: 4em;
+    text-shadow: 2px 2px 2px black;
+    padding-left: 3%;
+    padding-right: 3%;
+}
+
+.paragraphe-one {
+    color: white;
+    font-family: fipps;
+    padding-right: 3%;
+    margin-right: 35%;
+    margin-left: 3%;
+    padding-left: 3%;
+    margin-top: 4%;
+    border: solid black;
+    font-size: 1.1em;
+    background-color: rgba(0, 0, 0, 0.34);
+}
+
+h2 {
+    display: inline-block;
+    color: white;
+    font-family: starcruiser;
+    font-size: 3.3em;
+    padding-left: 2.5%;
+    text-shadow: 1.5px 1.5px 1.5px black;
+}
+
+h3 {
+    color: whitesmoke;
+    font-family: starwars;
+    text-shadow: 1.5px 1.5px 1.5px black;
+    padding-left: 39%;
+    font-size: 2.3em;
+    margin-top: 0;
+    margin-bottom: -2%;
+}
+
+.paragraphe-two {
+    color: white;
+    font-family: fipps;
+    padding-right: 2%;
+    margin-right: 49%;
+    margin-left: 5%;
+    padding-left: 2%;
+    margin-top: 4%;
+    border: solid black;
+    font-size: 1em;
+    background-color: rgba(0, 0, 0, 0.50);
+}
+
+.paragraphe-three {
+    color: white;
+    font-family: fipps;
+    padding-right: 2%;
+    margin-right: 42%;
+    margin-left: 5%;
+    padding-left: 2%;
+    margin-top: 4%;
+    border: solid black;
+    font-size: 0.9em;
+    background-color: rgba(0, 0, 0, 0.50);
+}
+
+.paragraphe-four {
+    color: white;
+    font-family: fipps;
+    padding-right: 2%;
+    margin-right: 46%;
+    margin-left: 5%;
+    padding-left: 2%;
+    margin-top: 4%;
+    border: solid black;
+    font-size: 0.9em;
+    background-color: rgba(0, 0, 0, 0.50);
+}
+
+.paragraphe-five {
+    color: white;
+    font-family: fipps;
+    padding-right: 2%;
+    margin-right: 43%;
+    margin-left: 5%;
+    padding-left: 2%;
+    margin-top: 4%;
+    border: solid black;
+    font-size: 0.9em;
+    background-color: rgba(0, 0, 0, 0.50);
+}
+
+.paragraphe-six {
+    color: white;
+    font-family: fipps;
+    padding-right: 2%;
+    margin-right: 33%;
+    margin-left: 5%;
+    padding-left: 2%;
+    margin-top: 4%;
+    border: solid black;
+    font-size: 0.9em;
+    background-color: rgba(0, 0, 0, 0.50);
+}
+
+.paragraphe-seven {
+    color: white;
+    font-family: fipps;
+    padding-right: 2%;
+    margin-right: 45%;
+    margin-left: 5%;
+    padding-left: 2%;
+    margin-top: 4%;
+    border: solid black;
+    font-size: 0.95em;
+    background-color: rgba(0, 0, 0, 0.50);
+}
+
+.paragraphe-eight {
+    color: white;
+    font-family: fipps;
+    padding-right: 2%;
+    margin-right: 43%;
+    margin-left: 5%;
+    padding-left: 2%;
+    margin-top: 4%;
+    border: solid black;
+    font-size: 0.89em;
+    background-color: rgba(0, 0, 0, 0.50);
+}
+
+h4 {
+    color: white;
+    font-family: starwars;
+    text-shadow: 1.5px 1.5px 1.5px black;
+    margin-left: 46%;
+    font-size: 2.6rem;
+    margin-bottom: -2%;
+    margin-top: 0;
+}
+
+.bouton {
+    background-color: rgba(255, 255, 255, 0.801);
+    width: 80px;
+    height: 80px;
+    border-radius: 50px;
+    box-shadow: 4px 4px 6px 6px rgb(0, 0, 0);
+    cursor: pointer;
+}
+
+.activer {
+    background-color: rgba(255, 255, 255, 0.5);
+    width: 80px;
+    height: 80px;
+    margin-left: 1px;
+    border-radius: 50px;
+    box-shadow: 2px 2px 4px 4px rgb(0, 0, 0);
+    cursor: pointer;
+}
+
+span {
+    background: white !important;
+}
+
